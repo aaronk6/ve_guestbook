@@ -1119,7 +1119,7 @@ class tx_veguestbook_pi1 extends AbstractPlugin
         $error .= $errorBlacklist;
 
         if (!empty($error)) {
-            return '<ul>' . $error . '</url>';
+            return '<ul>' . $error . '</ul>';
         }
     }
 
